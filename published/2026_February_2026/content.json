@@ -1,0 +1,130 @@
+{
+  "date_label": "February 2026",
+  "message_heading": "Team Huddle: Early Pregnancy",
+  "message_to_team": "Early pregnancy care resides at the intersection of rapid diagnosis, complex counselling, and long-term psychological impact. While a critical window of development, ectopic pregnancy remains a leading cause of maternal morbidity—occurring in 1% to 2% of pregnancies and accounting for nearly 6% of pregnancy-related deaths. As global caesarean rates rise, the increasing incidence of caesarean scar pregnancies (occurring in roughly 1 in 2,000 gestations) requires us to re-evaluate their role within the placenta accreta spectrum. This month, we bridge clinical learning with compassionate practice, examining diagnostic pitfalls, CTG monitoring in high-risk multiples, and the vital management of psychological sequelae following loss.",
+  "theme": {
+    "enabled": false,
+    "label": "Early Pregnancy",
+    "title": "Early Pregnancy: Diagnosis, Loss and Risk",
+    "intro": "Early pregnancy care spans rapid diagnosis, complex counselling and long-term psychological impact. In this edition we revisit ectopic and miscarriage guidance, examine the mental health burden following early pregnancy loss, explore a high-risk multiple pregnancy CTG case, and review how caesarean scar pregnancies fit into the placenta accreta spectrum."
+  },
+  "ctg": {
+    "week_label": "WEEK 1 • CTG",
+    "title": "The \"Disappearing\" Membrane",
+    "presented_by": "Zoe Slack",
+    "no_meeting": false,
+    "background": "31-week MCDA scan: intertwin membrane difficult to see and free-floating, raising concern for septostomy.",
+    "interpretation": "Septostomy effectively converts MCDA twins into a single-sac pregnancy with much higher cord-entanglement risk; any \"disappearing\" membrane should trigger senior review and closer surveillance.",
+    "outcome": "At 34 weeks, SROM was followed by membrane entanglement around one twin’s leg causing transient ischaemia; both babies were delivered safely by caesarean.",
+    "learning_point": "A disappearing membrane is a high-risk red flag. This image (Fig. 2) shows the physical cause of the foetal distress: the ruptured membrane allowed one cord to wrap around the other four times. This entanglement, tightened by membrane debris, caused both cords to be compressed simultaneously during uterine activity, preventing the twins from tolerating contractions.",
+    "trace_image": "The Station Final_files/CTG march.png",
+    "trace_caption": "Figure 1. CTG trace showing acute foetal distress during labour.",
+    "trace_image_side": "The Station Final_files/CTG picture March.png",
+    "trace_side_caption": "Figure 2. Placental cord and membrane entanglement."
+  },
+  "gynae_jc": {
+    "week_label": "WEEK 2 • GYNAE JC",
+    "title": "Posttraumatic stress, anxiety and depression following miscarriage and ectopic pregnancy: a multicentre, prospective cohort study",
+    "journal": "Am J Obstet Gynecol, 2019",
+    "presented_by": "Shehani Alwis",
+    "key_findings": "Large multicentre cohort of women after miscarriage, ectopic pregnancy, molar pregnancy and PUL followed at 1, 3 and 9 months with validated PTSD, anxiety and depression scales.",
+    "key_results": "High rates of PTSD, anxiety and depression shortly after early pregnancy loss, with a substantial minority still symptomatic at 9 months; many women declined participation because they did not want to be reminded, highlighting classic PTSD avoidance.",
+    "take_home": "Do not assume emotional recovery tracks physical recovery: normalise talking about PTSD, anxiety and depression after early loss and build signposting to psychological support into routine follow-up.",
+    "paper_link": "https://pubmed.ncbi.nlm.nih.gov/31953115/"
+  },
+  "guideline": {
+    "week_label": "WEEK 3 • GUIDELINE",
+    "title": "NICE Ectopic pregnancy and miscarriage: diagnosis and initial management",
+    "presented_by": "Ashlesha Sardesai",
+    "sections": [
+      {
+        "label": "Imaging",
+        "text": "TVS is first line.\nLaparoscopy is not the diagnostic gold standard."
+      },
+      {
+        "label": "Sac appearance",
+        "text": "True IUP: double echogenic ring.\nPseudosac: single ring and common in ectopic pregnancy."
+      },
+      {
+        "label": "Tools",
+        "text": "Use the sliding sign to confirm a tubal mass.\nUse serial beta-hCG only for PUL.\nDo not use serum progesterone to locate the pregnancy."
+      },
+      {
+        "label": "Bottom line",
+        "text": "If you cannot clearly see a double ring, do not label it an IUP.\nManage as PUL until the location is proved."
+      }
+    ],
+    "guideline_link": "https://www.nice.org.uk/guidance/ng126"
+  },
+  "obs_jc": {
+    "week_label": "WEEK 4 • OBS JC",
+    "title": "Caesarean Scar Pregnancy Spectrum: Standardised Classification and Terminology",
+    "journal": "J Ultrasound Med, 2026",
+    "presented_by": "Lucy Thorn",
+    "key_findings": "CSP is increasingly seen with rising caesarean rates and sits on the same spectrum as placenta accreta spectrum (PAS). This paper proposes a three-type system based on where the sac sits relative to the scar and cavity.",
+    "key_results": "Type 1 – on the scar, mostly in the cavity: best chance of reaching term.\nType 2 – in the niche: high risk of PAS.\nType 3 – exogenous, bulging towards the bladder: highest risk of rupture and major haemorrhage.",
+    "take_home": "Classifying CSP as type 1–3 at first-trimester scan helps stratify risk, support shared decision-making and plan follow-up in centres experienced with PAS before catastrophic bleeding occurs.",
+    "image": "CSE.png",
+    "image_caption": "Figure 3. Definition and sonographic reporting system for caesarean scar pregnancy in early gestation: the modified Delphi method",
+    "paper_link": "https://onlinelibrary.wiley.com/doi/10.1002/jum.70034"
+  },
+  "historical_fact": {
+    "title": "The \"Frog Test\" of the 1940s",
+    "fact": "Before the era of simple plastic dipsticks, clinicians relied on the Hogben test. To confirm a pregnancy, a woman's urine was injected into an African clawed frog; if the pregnancy hormone hCG was present, the frog would ovulate and lay eggs within 24 hours. When modern chemical tests arrived in the 1960s, these \"living lab tests\" were no longer needed. Thousands were released into the wild, inadvertently spreading a deadly fungus (chytrid) that has since caused devastating population declines and extinctions of amphibians worldwide. It is a sobering reminder that our instant diagnostic tools are built on decades of animal-based science—and a global ecological footprint.",
+    "year": "1940s",
+    "reference_link": "https://www.nature.com/articles/133762a0",
+    "image": "The Station Final_files/frog.png",
+    "image_caption": "Figure 4: African clawed frogs used in the Hogben pregnancy test."
+  },
+  "schedule": {
+    "month": "March 2026",
+    "theme_subheading": "March's Theme: Menopause",
+    "meetings": [
+      {
+        "date": "Mar 3",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "CTG",
+        "topic": "By Snehal Kolluru",
+        "location": "Microsoft Teams",
+        "presenter": "Snehal Kolluru"
+      },
+      {
+        "date": "Mar 10",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Gynae JC",
+        "topic": "Fezolinetant for treatment of symptoms associated with menopause (Romana Cuffolo)",
+        "location": "Microsoft Teams",
+        "presenter": "Romana Cuffolo"
+      },
+      {
+        "date": "Mar 17",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Guidelines Session",
+        "topic": "NICE Menopause & RCOG HRT (Niluka Kanaganayagam)",
+        "location": "Microsoft Teams",
+        "presenter": "Niluka Kanaganayagam"
+      },
+      {
+        "date": "Mar 24",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Obs JC",
+        "topic": "TBD (Vishnu Shivanand)",
+        "location": "Microsoft Teams",
+        "presenter": "Vishnu Shivanand"
+      }
+    ]
+  },
+  "mdt_reminder": {
+    "enabled": true,
+    "day": "Tuesday",
+    "time": "08:30–09:00",
+    "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
+  },
+  "barcode": {
+    "barcode_image": "teams_meeting_qr.png"
+  }
+}

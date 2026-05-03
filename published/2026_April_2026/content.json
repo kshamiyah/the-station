@@ -1,0 +1,115 @@
+{
+  "date_label": "April 2026",
+  "message_heading": "Team Huddle: Postpartum Complications",
+  "message_to_team": "Postpartum complications remain a leading cause of maternal morbidity worldwide, with conditions ranging from haemorrhage and sepsis to hypertensive disorders and venous thromboembolism demanding vigilance well beyond the delivery suite. This month's Station explores these critical topics — equipping the team with practical insights to recognise and manage complications in the hours, days, and weeks after birth.",
+  "theme": {
+    "enabled": false,
+    "label": "Monthly Theme",
+    "title": "Postpartum Complications",
+    "intro": "Critical recognition and management in the postpartum period."
+  },
+  "ctg": {
+    "week_label": "WEEK 1 • AI IN HEALTHCARE",
+    "title": "AI in Clinical Practice — Introduction to NotebookLM",
+    "presented_by": "Khalid Shamiyah",
+    "no_meeting": false,
+    "label_background": "WHAT IS IT",
+    "label_interpretation": "WHAT CAN IT DO",
+    "label_outcome": "KEY TERMINOLOGY",
+    "background": "NotebookLM is a free Google tool that lets you upload documents (PDFs, websites, slides) and chat with an AI about their content. Unlike ChatGPT, it only uses the sources you provide — no guesswork.",
+    "interpretation": "Chat with your documents, generate slide decks, create podcast-style audio overviews, build flashcards and quizzes for revision, and produce summaries and infographics.",
+    "outcome": "LLM (large language model) — an AI system trained on vast amounts of text that can understand and generate human language. Think of it as a doctor who's read every textbook, journal, and guideline ever written, but has never seen a single patient — it has the knowledge, but not the clinical judgement or real-world experience.",
+    "learning_point": "AI tools are free, already widely used, and can save real time in clinical and academic work. But remember — AI is a tool, not a colleague. Always verify its output against trusted sources and never rely on it for clinical decision-making. Use it to work faster, not to think less.",
+    "trace_image": "",
+    "trace_caption": "",
+    "link": "https://notebooklm.google/",
+    "link_text": "Visit NotebookLM"
+  },
+  "gynae_jc": {},
+  "guideline": {
+    "week_label": "WEEK 2 • GUIDELINE",
+    "title": "VTE Risk Assessment and Prophylaxis in Maternity",
+    "journal": "RCOG/NICE Guidelines, 2025",
+    "presented_by": "Zoe Slack",
+    "sections": [
+      {
+        "label": "Scale",
+        "text": "The 2025 MBRRACE report shows VTE-related maternal deaths remain static — 42 of 257 deaths, ~2 per 100,000 maternities. Many fatal VTE events occur early in pregnancy."
+      },
+      {
+        "label": "Key Points",
+        "text": "RCOG and NICE recommend early prophylaxis, but these patients are often missed. All patients should be assessed on admission. Key factors include BMI, age >35, and caesarean delivery. Assessment must be individualised and repeated at key points. The new NHS Maternal Care Bundle (2026) sets national standards across five areas including VTE. VTE risk assessment now moves to first NHS contact rather than booking, with LMWH within 72 hours for high-risk women."
+      },
+      {
+        "label": "Take Home",
+        "text": "Early VTE assessment and individualised prophylaxis are critical. Risk assessment must happen at first NHS contact and be repeated at key clinical decision points."
+      }
+    ],
+    "guideline_link": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/reducing-the-risk-of-thrombosis-and-embolism-during-pregnancy-and-the-puerperium-green-top-guideline-no-37a/"
+  },
+  "obs_jc": {
+    "week_label": "WEEK 3 • OBS JC",
+    "title": "High risk of long-term recurrence after a first episode of venous thromboembolism during pregnancy or postpartum: the REPEAT Study",
+    "journal": "Journal of Thrombosis and Haemostasis, 2025",
+    "presented_by": "Balqis Abu Khadra",
+    "key_findings": "This study followed 583 women who had their first blood clot during pregnancy or shortly after delivery, tracking them for a median of 31 years.",
+    "key_results": "In the short term, recurrence was uncommon — only 6% had another clot within 2 years. But over time, the risk kept climbing: 13% by 5 years and 38% overall. Women who had a PE first time were more than twice as likely to have another PE. Those with interrupted pregnancies, clots in the leg, or AB blood group were also at higher risk. Interestingly, having a thrombophilia didn't increase the chance of recurrence.",
+    "take_home": "The early risk is reassuring, but over a lifetime about one in three women will have another clot. These patients need long-term awareness and thromboprophylaxis when they face high-risk situations like future pregnancies, surgery, or prolonged immobility.",
+    "paper_link": "https://doi.org/10.1016/j.jtha.2024.09.039"
+  },
+  "historical_fact": {
+    "title": "From Laxative to Life-Saver — The Unlikely Story of Magnesium Sulphate",
+    "year": "1906",
+    "fact": "In the early 1900s, physicians began noticing that magnesium sulphate — a common laxative — seemed to stop seizures in women with eclampsia. The first reported use was in 1906, but the medical community remained divided for decades over whether it truly worked or was just a placebo. It wasn't until 2002, when the landmark MAGPIE trial enrolled over 10,000 women across 33 countries, that magnesium sulphate was definitively proven to halve the risk of eclamptic seizures. Dr Edmond Meyer Lazard first reported the intravenous use of magnesium sulphate for eclampsia at Los Angeles General Hospital in 1925, reducing maternal mortality from ~30% to 6%. It took nearly 80 years for the MAGPIE trial to definitively prove its efficacy. Today it sits on the WHO's List of Essential Medicines and is a cornerstone of every labour ward — a reminder that sometimes the most important treatments come from the most unexpected places.",
+    "image": "../images/Lazard.png",
+    "image_caption": "Dr Edmond Meyer Lazard, who first reported the intravenous use of magnesium sulphate for eclampsia at Los Angeles General Hospital in 1925",
+    "reference_link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(02)08778-0/abstract"
+  },
+  "schedule": {
+    "month": "May 2026",
+    "theme_subheading": "May's Theme: Hypertensive Disorders",
+    "meetings": [
+      {
+        "date": "May 5",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "CTG",
+        "topic": "By Joana Pawlak",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "May 12",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Obs JC",
+        "topic": "TBD (Zach Chan)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "May 19",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Guidelines",
+        "topic": "RCOG/NICE Guidelines on Hypertensive Disorders (Chloe Unwin)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "May 26",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "AI in Healthcare",
+        "topic": "TBD (Khalid Shamiyah)",
+        "location": "Microsoft Teams"
+      }
+    ]
+  },
+  "mdt_reminder": {
+    "enabled": true,
+    "day": "Tuesday",
+    "time": "08:30–09:00",
+    "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
+  },
+  "barcode": {
+    "barcode_image": "../images/teams_meeting_qr.png"
+  }
+}

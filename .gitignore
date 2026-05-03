@@ -1,0 +1,28 @@
+# Generated files
+build/
+*.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment
+.venv/
+venv/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Junk directories (from browser/zip)
+The Station_files/
+The Station Final_files/
