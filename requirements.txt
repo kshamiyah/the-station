@@ -1,3 +1,4 @@
 # Optional: for PDF export (python3 html_to_pdf.py)
 # After pip install: run "playwright install chromium"
 playwright>=1.40.0
+qrcode[pil]>=7.0
