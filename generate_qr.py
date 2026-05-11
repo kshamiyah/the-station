@@ -13,7 +13,7 @@ except ImportError:
 from pathlib import Path
 
 # GitHub Pages URL for The Station newsletter
-NEWSLETTER_URL = "https://khalidshamiyah.github.io/the-station/"
+NEWSLETTER_URL = "https://kshamiyah.github.io/the-station/"
 
 def generate_qr_code(url, output_path):
     """Generate QR code and save as PNG"""
