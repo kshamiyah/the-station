@@ -47,7 +47,7 @@
     "fact": "The modern neonatal incubator was actually inspired by a trip to the zoo. In 1880, French obstetrician Stéphane Tarnier visited the Paris Zoo and observed incubators being used to hatch chicks. Realising that temperature regulation was the missing link for premature babies, he had the zoo's instrument-maker build a similar device for the Paris Maternité hospital. This first \"couveuse\" reduced the mortality rate of infants between 1.2kg and 2kg from 66% to 38% almost overnight.",
     "year": "Baker JP. J Perinatol. 2000.",
     "reference_link": "https://pubmed.ncbi.nlm.nih.gov/10920793/",
-    "image": "The Station Final_files/incubator.png",
+    "image": "../../images/incubator.png",
     "image_caption": "Tarnier's incubators in the Maternité Hospital, Paris, 1884. Source: Illustrated London News, 8 March 1884, p. 228."
   },
   "schedule": {
@@ -93,6 +93,6 @@
     "time": "8:30-09:00"
   },
   "barcode": {
-    "barcode_image": "teams_meeting_qr.png"
+    "barcode_image": "../../images/teams_meeting_qr.png"
   }
 }

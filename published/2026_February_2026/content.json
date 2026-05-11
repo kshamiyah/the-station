@@ -17,9 +17,9 @@
     "interpretation": "Septostomy effectively converts MCDA twins into a single-sac pregnancy with much higher cord-entanglement risk; any \"disappearing\" membrane should trigger senior review and closer surveillance.",
     "outcome": "At 34 weeks, SROM was followed by membrane entanglement around one twin’s leg causing transient ischaemia; both babies were delivered safely by caesarean.",
     "learning_point": "A disappearing membrane is a high-risk red flag. This image (Fig. 2) shows the physical cause of the foetal distress: the ruptured membrane allowed one cord to wrap around the other four times. This entanglement, tightened by membrane debris, caused both cords to be compressed simultaneously during uterine activity, preventing the twins from tolerating contractions.",
-    "trace_image": "The Station Final_files/CTG march.png",
+    "trace_image": "../../images/CTG march.png",
     "trace_caption": "Figure 1. CTG trace showing acute foetal distress during labour.",
-    "trace_image_side": "The Station Final_files/CTG picture March.png",
+    "trace_image_side": "../../images/CTG picture March.png",
     "trace_side_caption": "Figure 2. Placental cord and membrane entanglement."
   },
   "gynae_jc": {
@@ -64,7 +64,7 @@
     "key_findings": "CSP is increasingly seen with rising caesarean rates and sits on the same spectrum as placenta accreta spectrum (PAS). This paper proposes a three-type system based on where the sac sits relative to the scar and cavity.",
     "key_results": "Type 1 – on the scar, mostly in the cavity: best chance of reaching term.\nType 2 – in the niche: high risk of PAS.\nType 3 – exogenous, bulging towards the bladder: highest risk of rupture and major haemorrhage.",
     "take_home": "Classifying CSP as type 1–3 at first-trimester scan helps stratify risk, support shared decision-making and plan follow-up in centres experienced with PAS before catastrophic bleeding occurs.",
-    "image": "CSE.png",
+    "image": "../../images/CSE.png",
     "image_caption": "Figure 3. Definition and sonographic reporting system for caesarean scar pregnancy in early gestation: the modified Delphi method",
     "paper_link": "https://onlinelibrary.wiley.com/doi/10.1002/jum.70034"
   },
@@ -73,7 +73,7 @@
     "fact": "Before the era of simple plastic dipsticks, clinicians relied on the Hogben test. To confirm a pregnancy, a woman's urine was injected into an African clawed frog; if the pregnancy hormone hCG was present, the frog would ovulate and lay eggs within 24 hours. When modern chemical tests arrived in the 1960s, these \"living lab tests\" were no longer needed. Thousands were released into the wild, inadvertently spreading a deadly fungus (chytrid) that has since caused devastating population declines and extinctions of amphibians worldwide. It is a sobering reminder that our instant diagnostic tools are built on decades of animal-based science—and a global ecological footprint.",
     "year": "1940s",
     "reference_link": "https://www.nature.com/articles/133762a0",
-    "image": "The Station Final_files/frog.png",
+    "image": "../../images/frog.png",
     "image_caption": "Figure 4: African clawed frogs used in the Hogben pregnancy test."
   },
   "schedule": {
@@ -125,6 +125,6 @@
     "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
   },
   "barcode": {
-    "barcode_image": "teams_meeting_qr.png"
+    "barcode_image": "../../images/teams_meeting_qr.png"
   }
 }

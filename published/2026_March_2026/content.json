@@ -17,7 +17,7 @@
     "interpretation": "Intrapartum CTGs showed a progressively rising baseline with no decelerations — falsely reassuring. The pattern was driven by developing chorioamnionitis, worsened by multiple VEs and oxytocin augmentation.",
     "outcome": "Baby delivered at full dilatation but required 7–8 days on SCBU for significant neonatal infection.",
     "learning_point": "A rising baseline without decelerations should trigger consideration of infection, not just hypoxia. Oxytocin doubles HIE risk in the presence of chorioamnionitis — only start when the CTG is confidently normal. Limit unnecessary VEs and have a low threshold for septic workup.",
-    "trace_image": "The Station Final_files/CTG March.png",
+    "trace_image": "../../images/CTG March.png",
     "trace_caption": "Figure 1. Intrapartum CTG showing progressively rising baseline in the context of developing chorioamnionitis.",
     "trace_image_side": "",
     "trace_side_caption": ""
@@ -69,7 +69,7 @@
     "fact": "Long before ChatGPT or AI entered the mainstream lexicon, two Oxford professors were already asking the question: can a computer interpret a fetal heart rate better than the human eye? In 1978, Geoffrey Dawes and Christopher Redman began building an algorithm to do exactly that — objectively analyse the antenatal CTG. After more than a decade of development and thousands of traces, the System 8000 launched in 1991 as the first commercially available computerised CTG analysis tool. Today, refined using over 100,000 recordings, the Dawes-Redman criteria are woven into everyday UK practice through the NHS Saving Babies' Lives Care Bundle. As we launch our own AI in Healthcare sessions this month, it's worth remembering that AI in obstetrics isn't some distant future — it started down the road at the Nuffield, nearly half a century ago.",
     "year": "1978",
     "reference_link": "https://journals.lww.com/mfm/fulltext/2022/04000/computerized_analysis_of_antepartum.7.aspx",
-    "image": "The Station Final_files/Redman.png",
+    "image": "../../images/Redman.png",
     "image_caption": "Figure 2. Princess Diana with Professor Chris Redman, 1986."
   },
   "schedule": {
@@ -120,6 +120,6 @@
     "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
   },
   "barcode": {
-    "barcode_image": "teams_meeting_qr.png"
+    "barcode_image": "../../images/teams_meeting_qr.png"
   }
 }
