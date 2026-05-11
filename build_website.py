@@ -276,8 +276,7 @@ def update_index_page(docs_dir, newsletter_files):
         </div>
 
         <div class="footer">
-            <p class="footer-text">New edition published the first Sunday of each month</p>
-            <p class="footer-text" style="margin-top: 24px; color: #86868b;">Created and published by Khalid Shamiyah</p>
+            <p class="footer-text">Created and published by Khalid Shamiyah</p>
         </div>
     </div>
 </body>
