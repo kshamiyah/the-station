@@ -103,8 +103,8 @@ def main():
 def update_index_page(docs_dir, newsletter_files):
     """Update index.html to include links to all newsletters with Apple-style design"""
 
-    # Sort by name (reverse chronological)
-    newsletter_files.sort(reverse=True)
+    # Sort by name (chronological - oldest first)
+    newsletter_files.sort()
 
     newsletter_links = "\n".join([
         f'''                <a href="{filename}" class="newsletter-item">
@@ -171,6 +171,9 @@ def update_index_page(docs_dir, newsletter_files):
 
         .newsletter-section {{
             margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }}
 
         .section-title {{
@@ -178,6 +181,9 @@ def update_index_page(docs_dir, newsletter_files):
             font-weight: 600;
             margin-bottom: 24px;
             color: #1d1d1f;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }}
 
         .newsletter-list {{
@@ -185,8 +191,7 @@ def update_index_page(docs_dir, newsletter_files):
             flex-direction: column;
             gap: 12px;
             max-width: 420px;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
         }}
 
         .newsletter-item {{
