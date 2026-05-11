@@ -22,6 +22,25 @@ def get_newsletter_name(folder_name):
         return f"{month}-{year}"
     return folder_name.lower()
 
+def resolve_image_paths(content_data, base_folder):
+    """
+    Recursively resolve relative image paths to absolute paths
+    relative to the base_folder (the published newsletter folder)
+    """
+    if isinstance(content_data, dict):
+        for key, value in content_data.items():
+            if key in ('image', 'trace_image', 'trace_image_side', 'barcode_image'):
+                if isinstance(value, str) and value and not value.startswith(('http://', 'https://', 'data:')):
+                    # Convert relative path to absolute path from the newsletter folder
+                    resolved_path = (base_folder / value).resolve()
+                    if resolved_path.exists():
+                        content_data[key] = str(resolved_path)
+            elif isinstance(value, (dict, list)):
+                resolve_image_paths(value, base_folder)
+    elif isinstance(content_data, list):
+        for item in content_data:
+            resolve_image_paths(item, base_folder)
+
 def main():
     published_dir = Path(__file__).parent / "published"
     docs_dir = Path(__file__).parent / "docs"
@@ -48,6 +67,9 @@ def main():
             # Load content
             with open(content_file, 'r', encoding='utf-8') as f:
                 content_data = json.load(f)
+
+            # Resolve relative image paths to absolute paths
+            resolve_image_paths(content_data, folder)
 
             # Generate HTML
             html_content = generate_newsletter_html(content_data)
