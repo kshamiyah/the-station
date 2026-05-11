@@ -24,17 +24,21 @@ def get_newsletter_name(folder_name):
 
 def resolve_image_paths(content_data, base_folder):
     """
-    Recursively resolve relative image paths to absolute paths
-    relative to the base_folder (the published newsletter folder)
+    Recursively resolve relative image paths to GitHub raw content URLs
     """
+    github_base = "https://raw.githubusercontent.com/kshamiyah/the-station/main"
+
     if isinstance(content_data, dict):
         for key, value in content_data.items():
             if key in ('image', 'trace_image', 'trace_image_side', 'barcode_image'):
                 if isinstance(value, str) and value and not value.startswith(('http://', 'https://', 'data:')):
-                    # Convert relative path to absolute path from the newsletter folder
+                    # Convert relative path to GitHub raw URL
                     resolved_path = (base_folder / value).resolve()
                     if resolved_path.exists():
-                        content_data[key] = str(resolved_path)
+                        # Get relative path from repo root
+                        rel_path = resolved_path.relative_to(Path(__file__).parent)
+                        github_url = f"{github_base}/{rel_path}".replace("\\", "/")
+                        content_data[key] = github_url
             elif isinstance(value, (dict, list)):
                 resolve_image_paths(value, base_folder)
     elif isinstance(content_data, list):
