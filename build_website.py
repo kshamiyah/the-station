@@ -183,14 +183,17 @@ def update_index_page(docs_dir, newsletter_files):
         .newsletter-list {{
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 12px;
+            max-width: 420px;
+            margin-left: auto;
+            margin-right: auto;
         }}
 
         .newsletter-item {{
             background-color: transparent;
             border: 1px solid #e5e5e7;
-            border-radius: 12px;
-            padding: 20px 24px;
+            border-radius: 8px;
+            padding: 14px 18px;
             text-decoration: none;
             color: inherit;
             transition: all 0.2s ease;
@@ -200,12 +203,12 @@ def update_index_page(docs_dir, newsletter_files):
         }}
 
         .newsletter-item:hover {{
-            background-color: #f5f5f7;
+            background-color: #f9f9f9;
             border-color: #d1d1d6;
         }}
 
         .newsletter-item:active {{
-            transform: scale(0.99);
+            transform: scale(0.98);
         }}
 
         .item-content {{
@@ -213,20 +216,21 @@ def update_index_page(docs_dir, newsletter_files):
         }}
 
         .item-title {{
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 600;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }}
 
         .item-meta {{
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: #86868b;
         }}
 
         .item-arrow {{
-            color: #86868b;
-            font-size: 1.2rem;
-            margin-left: 16px;
+            color: #d1d1d6;
+            font-size: 1rem;
+            margin-left: 12px;
+            flex-shrink: 0;
         }}
 
         .footer {{
