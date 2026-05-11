@@ -103,8 +103,16 @@ def main():
 def update_index_page(docs_dir, newsletter_files):
     """Update index.html to include links to all newsletters with Apple-style design"""
 
-    # Sort by name (chronological - oldest first)
-    newsletter_files.sort()
+    # Sort chronologically by month
+    month_order = {'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
+                   'july': 7, 'august': 8, 'september': 9, 'october': 10, 'november': 11, 'december': 12}
+
+    def sort_key(item):
+        filename, label = item
+        month = label.split()[0].lower()
+        return (month_order.get(month, 13), filename)
+
+    newsletter_files.sort(key=sort_key)
 
     newsletter_links = "\n".join([
         f'''                <a href="{filename}" class="newsletter-item">
