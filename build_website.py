@@ -101,13 +101,19 @@ def main():
     print(f"   Ready for GitHub Pages deployment")
 
 def update_index_page(docs_dir, newsletter_files):
-    """Update index.html to include links to all newsletters"""
+    """Update index.html to include links to all newsletters with Apple-style design"""
 
     # Sort by name (reverse chronological)
     newsletter_files.sort(reverse=True)
 
     newsletter_links = "\n".join([
-        f'            <a href="{filename}" class="newsletter-item">{label} Edition</a>'
+        f'''                <a href="{filename}" class="newsletter-item">
+                    <div class="item-content">
+                        <div class="item-title">{label}</div>
+                        <div class="item-meta">Edition</div>
+                    </div>
+                    <div class="item-arrow">→</div>
+                </a>'''
         for filename, label in newsletter_files
     ])
 
@@ -123,83 +129,152 @@ def update_index_page(docs_dir, newsletter_files):
             padding: 0;
             box-sizing: border-box;
         }}
+
         body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1d1d1f;
+            line-height: 1.6;
         }}
+
         .container {{
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            max-width: 600px;
-            padding: 40px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }}
+
+        .header {{
             text-align: center;
+            margin-bottom: 80px;
         }}
+
         h1 {{
-            color: #333;
-            margin-bottom: 8px;
-            font-size: 2.5em;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
         }}
+
         .tagline {{
-            color: #666;
-            font-size: 1em;
-            font-style: italic;
-            margin-bottom: 32px;
-            opacity: 0.8;
+            font-size: 1.25rem;
+            color: #86868b;
+            font-weight: 400;
+            letter-spacing: 0.3px;
         }}
+
         .subtitle {{
-            color: #888;
-            font-size: 0.95em;
+            font-size: 1rem;
+            color: #86868b;
+            margin-top: 8px;
+            font-weight: 400;
+        }}
+
+        .newsletter-section {{
+            margin-bottom: 60px;
+        }}
+
+        .section-title {{
+            font-size: 1.5rem;
+            font-weight: 600;
             margin-bottom: 24px;
-            font-weight: 500;
+            color: #1d1d1f;
         }}
+
         .newsletter-list {{
-            text-align: left;
-            margin: 32px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
         }}
+
         .newsletter-item {{
-            background: #f5f5f5;
-            padding: 16px 20px;
-            margin-bottom: 12px;
-            border-radius: 8px;
+            background-color: transparent;
+            border: 1px solid #e5e5e7;
+            border-radius: 12px;
+            padding: 20px 24px;
             text-decoration: none;
-            color: #667eea;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            display: block;
-            border-left: 4px solid #667eea;
+            color: inherit;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }}
+
         .newsletter-item:hover {{
-            background: #667eea;
-            color: white;
-            transform: translateX(4px);
-            border-left-color: white;
+            background-color: #f5f5f7;
+            border-color: #d1d1d6;
         }}
+
+        .newsletter-item:active {{
+            transform: scale(0.99);
+        }}
+
+        .item-content {{
+            text-align: left;
+        }}
+
+        .item-title {{
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }}
+
+        .item-meta {{
+            font-size: 0.9rem;
+            color: #86868b;
+        }}
+
+        .item-arrow {{
+            color: #86868b;
+            font-size: 1.2rem;
+            margin-left: 16px;
+        }}
+
         .footer {{
-            color: #999;
-            font-size: 0.9em;
-            margin-top: 32px;
-            border-top: 1px solid #eee;
-            padding-top: 24px;
+            text-align: center;
+            padding-top: 60px;
+            border-top: 1px solid #e5e5e7;
+            margin-top: 60px;
+        }}
+
+        .footer-text {{
+            font-size: 0.9rem;
+            color: #86868b;
+        }}
+
+        @media (max-width: 768px) {{
+            .container {{
+                padding: 40px 16px;
+            }}
+
+            h1 {{
+                font-size: 2.5rem;
+            }}
+
+            .tagline {{
+                font-size: 1.1rem;
+            }}
         }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>📰 The Station</h1>
-        <div class="tagline">Engaged with the evidence.</div>
-        <p class="subtitle">O&G Departmental Educational Newsletter</p>
-
-        <div class="newsletter-list">
-{newsletter_links}
+        <div class="header">
+            <h1>The Station</h1>
+            <p class="tagline">Engaged with the evidence.</p>
+            <p class="subtitle">O&G Departmental Educational Newsletter</p>
         </div>
 
-        <p class="footer">Latest editions of The Station newsletter</p>
+        <div class="newsletter-section">
+            <h2 class="section-title">Latest Editions</h2>
+            <div class="newsletter-list">
+{newsletter_links}
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="footer-text">New edition published the first Sunday of each month</p>
+            <p class="footer-text" style="margin-top: 24px; color: #86868b;">Created and published by Khalid Shamiyah</p>
+        </div>
     </div>
 </body>
 </html>'''
