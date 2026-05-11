@@ -61,47 +61,53 @@
             color: #1d1d1f;
         }
 
-        .newsletter-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-        }
-
-        .newsletter-card {
-            background-color: #f5f5f7;
-            border-radius: 18px;
-            padding: 32px 24px;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.3s ease;
+        .newsletter-list {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-height: 200px;
+            gap: 16px;
+        }
+
+        .newsletter-item {
+            background-color: transparent;
             border: 1px solid #e5e5e7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        .newsletter-card:hover {
+        .newsletter-item:hover {
             background-color: #f5f5f7;
-            transform: translateY(-4px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+            border-color: #d1d1d6;
         }
 
-        .newsletter-card:active {
-            transform: scale(0.98);
+        .newsletter-item:active {
+            transform: scale(0.99);
         }
 
-        .card-title {
-            font-size: 1.2rem;
+        .item-content {
+            text-align: left;
+        }
+
+        .item-title {
+            font-size: 1.1rem;
             font-weight: 600;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
 
-        .card-meta {
+        .item-meta {
             font-size: 0.9rem;
             color: #86868b;
+        }
+
+        .item-arrow {
+            color: #86868b;
+            font-size: 1.2rem;
+            margin-left: 16px;
         }
 
         .footer {
@@ -145,28 +151,41 @@
 
         <div class="newsletter-section">
             <h2 class="section-title">Latest Editions</h2>
-            <div class="newsletter-grid">
-                <a href="april-2026.html" class="newsletter-card">
-                    <div class="card-title">April 2026</div>
-                    <div class="card-meta">Latest Edition</div>
+            <div class="newsletter-list">
+                <a href="april-2026.html" class="newsletter-item">
+                    <div class="item-content">
+                        <div class="item-title">April 2026</div>
+                        <div class="item-meta">Latest Edition</div>
+                    </div>
+                    <div class="item-arrow">→</div>
                 </a>
-                <a href="march-2026.html" class="newsletter-card">
-                    <div class="card-title">March 2026</div>
-                    <div class="card-meta">Edition</div>
+                <a href="march-2026.html" class="newsletter-item">
+                    <div class="item-content">
+                        <div class="item-title">March 2026</div>
+                        <div class="item-meta">Edition</div>
+                    </div>
+                    <div class="item-arrow">→</div>
                 </a>
-                <a href="february-2026.html" class="newsletter-card">
-                    <div class="card-title">February 2026</div>
-                    <div class="card-meta">Edition</div>
+                <a href="february-2026.html" class="newsletter-item">
+                    <div class="item-content">
+                        <div class="item-title">February 2026</div>
+                        <div class="item-meta">Edition</div>
+                    </div>
+                    <div class="item-arrow">→</div>
                 </a>
-                <a href="january-2026.html" class="newsletter-card">
-                    <div class="card-title">January 2026</div>
-                    <div class="card-meta">Edition</div>
+                <a href="january-2026.html" class="newsletter-item">
+                    <div class="item-content">
+                        <div class="item-title">January 2026</div>
+                        <div class="item-meta">Edition</div>
+                    </div>
+                    <div class="item-arrow">→</div>
                 </a>
             </div>
         </div>
 
         <div class="footer">
             <p class="footer-text">New edition published the first Sunday of each month</p>
+            <p class="footer-text" style="margin-top: 24px; color: #86868b;">Created and published by Khalid Shamiyah</p>
         </div>
     </div>
 </body>
