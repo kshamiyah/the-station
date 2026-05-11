@@ -1,0 +1,98 @@
+{
+  "date_label": "January",
+  "message_to_team": "Welcome to \"The Station.\"\n\nWe are proud to introduce The Station, a monthly digest dedicated to the new and impactful research shaping our speciality. We know that clinical demands can make attending every meeting impossible, yet staying current is essential. This newsletter bridges that gap by summarising the critical evidence, guideline updates, and key debates from our departmental teaching. It ensures that every team member has direct access to the latest data driving our patient care.",
+  "theme": {
+    "title": "Preterm Birth",
+    "intro": "Preterm birth affects approximately 8% of all births in the UK and remains the single largest cause of neonatal mortality and morbidity. Despite advances in care, it accounts for ~75% of early neonatal deaths and a significant proportion of long-term neurodisability. This month, we focus on the evidence behind this critical issue—from the limits of universal screening to the complex long-term impacts of our treatments—ensuring our clinical practice is driven by the most robust data available."
+  },
+  "ctg": {
+    "week_label": "WEEK 1 • CTG",
+    "title": "No session held this month",
+    "no_meeting": true,
+    "learning_point": "Next month's theme: Early Pregnancy. CTG session scheduled for 3 February with Zoe Slack.",
+    "trace_image": ""
+  },
+  "gynae_jc": {
+    "week_label": "WEEK 2 • GYNAE JC",
+    "title": "Universal Screening for Preterm Birth in Low-Risk Women (IPP Trial)",
+    "journal": "Am J Obstet Gynecol MFM, 2024",
+    "presented_by": "Khalid Shamiyah",
+    "key_findings": "This RCT (n=1,334) investigated universal transvaginal ultrasound screening at 18–24 weeks in asymptomatic, low-risk women. Women with a short cervix (≤25mm) received vaginal progesterone and a cervical pessary.",
+    "key_results": "Result: There was no significant reduction in preterm birth <37 weeks (7.5% screening vs 8.7% control). The prevalence of short cervix in the low-risk population was too low (1.9%) to make this an effective screening target.",
+    "take_home": "Routine universal cervical length screening in low-risk women is not currently supported by evidence, aligning with current national guidance.",
+    "paper_link": "https://www.ajogmfm.org/article/S2589-9333(23)00409-3/fulltext"
+  },
+  "guideline": {
+    "week_label": "Guideline (Week 3)",
+    "title": "Antenatal Corticosteroids (RCOG GTG No. 74 vs Local Guidance)",
+    "presented_by": "Martha Shana",
+    "summary": "## RCOG Guidelines (National Standard)\nPrimary Course: Strongly recommended for women between 24+0 and 34+6 weeks who are at risk of imminent preterm birth (within 1–7 days).\nLate Preterm (35+0 - 36+6): Do not routinely offer. The guidelines emphasise discussing the balance of risks (neonatal hypoglycaemia, developmental issues) versus benefits (RDS reduction).\nElective CS: Corticosteroids should be offered for planned caesarean sections performed between 37+0 and 38+6 weeks.\n## Variation vs Local Guidelines\nExtreme Preterm (22+0 weeks): Our local guidelines actively encourage steroid administration starting from 22+0 weeks, taking a more proactive stance than the standard \"consideration\" often seen at this gestation.\n\"Rescue\" Doses: Our local guidance is more prescriptive than RCOG. A second \"rescue\" course is indicated if delivery has not occurred 7-14 days after the first course, but only if the gestation is still <33 weeks (specifically ≤32+6).\nLate Preterm (35+0 - 36+6): While RCOG advises against routine use in this window, our local guidelines explicitly suggest considering steroids for women undergoing Caesarean Section during this period.",
+    "guideline_link": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/antenatal-corticosteroids-to-reduce-neonatal-morbidity-and-mortality-green-top-guideline-no-74/"
+  },
+  "obs_jc": {
+    "week_label": "WEEK 4 • OBS JC",
+    "title": "Associations Between Maternal Antenatal Corticosteroid Treatment and Mental/Behavioural Disorders",
+    "journal": "JAMA, 2020",
+    "presented_by": "Kianoush Zarrindej",
+    "label_findings": "Key Finding",
+    "key_findings": "In a population of ~670,000 children, antenatal steroid exposure was significantly associated with increased mental and behavioural disorders.\n\nCrucially: This risk remained significant for children born at term. This suggests that \"just in case\" exposure—where the baby is not born prematurely—carries long-term neurodevelopmental risk without any respiratory benefit.",
+    "label_results": "Key Discussion Points",
+    "key_results": "The Counselling Challenge: The team discussed the difficulty of balancing immediate respiratory benefits against potential long-term neurodevelopmental trade-offs (e.g., minor IQ reductions).\n\nActionable Advice: It was suggested to direct parents to the RCOG patient information leaflet to help them digest these complex risks before making a decision.\n\nPractice Change: The discussion reinforced the importance of deferring elective Caesarean sections to 39+ weeks whenever possible to naturally reduce respiratory morbidity and avoid steroid exposure altogether.",
+    "label_take_home": "Take-home Message",
+    "take_home": "Discussion with parents is important—counselling them through the evidence from this study (and the RCOG patient information) helps them make informed decisions about risks and benefits.",
+    "paper_link": "https://jamanetwork.com/journals/jama/fullarticle/2766162"
+  },
+  "historical_fact": {
+    "title": "From Chickens to Children",
+    "fact": "The modern neonatal incubator was actually inspired by a trip to the zoo. In 1880, French obstetrician Stéphane Tarnier visited the Paris Zoo and observed incubators being used to hatch chicks. Realising that temperature regulation was the missing link for premature babies, he had the zoo's instrument-maker build a similar device for the Paris Maternité hospital. This first \"couveuse\" reduced the mortality rate of infants between 1.2kg and 2kg from 66% to 38% almost overnight.",
+    "year": "Baker JP. J Perinatol. 2000.",
+    "reference_link": "https://pubmed.ncbi.nlm.nih.gov/10920793/",
+    "image": "The Station Final_files/incubator.png",
+    "image_caption": "Tarnier's incubators in the Maternité Hospital, Paris, 1884. Source: Illustrated London News, 8 March 1884, p. 228."
+  },
+  "schedule": {
+    "month": "FEBRUARY 2026",
+    "meetings": [
+      {
+        "date": "Feb 3",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "CTG",
+        "topic": "CTG meeting (Zoe Slack)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Feb 10",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Gynae JC",
+        "topic": "PTSD following a pregnancy loss (Shehani Alwis)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Feb 17",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Guidelines",
+        "topic": "NICE Ectopic pregnancy and miscarriage: diagnosis and initial management (Aashlesha Sardesai)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Feb 24",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Obs JC",
+        "topic": "TBD (Lucy Thorn)",
+        "location": "Microsoft Teams"
+      }
+    ]
+  },
+  "mdt_reminder": {
+    "enabled": true,
+    "day": "Tuesday",
+    "time": "8:30-09:00"
+  },
+  "barcode": {
+    "barcode_image": "teams_meeting_qr.png"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "date_label": "March 2026",
+  "message_heading": "Team Huddle: AI in Healthcare",
+  "message_to_team": "A recent BMA survey found that over 40% of junior doctors are already using AI tools in some form — whether for study, clinical queries, or admin. The reality is most of us are using these tools daily but rarely talking about it openly. Starting this month, we're launching a new monthly AI in Healthcare session to change that. Led by myself and open to anyone interested, the aim is simple: introduce practical AI tools you can use on the ward, in clinic, and at your desk — and have an honest conversation about how they fit into modern practice. If you're curious, sceptical, or already a convert, there's a seat for you.",
+  "theme": {
+    "enabled": false,
+    "label": "AI in Healthcare",
+    "title": "AI in Healthcare: From Buzzword to Bedside",
+    "intro": "We're launching a new monthly AI in Healthcare session — practical tools, honest conversations, and a seat for everyone."
+  },
+  "ctg": {
+    "week_label": "WEEK 1 • CTG",
+    "title": "The Rising Baseline — More Than Meets the Eye",
+    "presented_by": "Snehal Kolluru",
+    "no_meeting": false,
+    "background": "A 28-year-old low-risk nullip presented twice to MAU with reduced fetal movements at 33+1 and 34 weeks. Antenatal CTGs met criteria both times but a requested ultrasound was never performed.",
+    "interpretation": "Intrapartum CTGs showed a progressively rising baseline with no decelerations — falsely reassuring. The pattern was driven by developing chorioamnionitis, worsened by multiple VEs and oxytocin augmentation.",
+    "outcome": "Baby delivered at full dilatation but required 7–8 days on SCBU for significant neonatal infection.",
+    "learning_point": "A rising baseline without decelerations should trigger consideration of infection, not just hypoxia. Oxytocin doubles HIE risk in the presence of chorioamnionitis — only start when the CTG is confidently normal. Limit unnecessary VEs and have a low threshold for septic workup.",
+    "trace_image": "The Station Final_files/CTG March.png",
+    "trace_caption": "Figure 1. Intrapartum CTG showing progressively rising baseline in the context of developing chorioamnionitis.",
+    "trace_image_side": "",
+    "trace_side_caption": ""
+  },
+  "gynae_jc": {
+    "week_label": "WEEK 2 • GYNAE JC",
+    "title": "Fezolinetant for Moderate-to-Severe Vasomotor Symptoms in Menopause (SKYLIGHT 1)",
+    "journal": "The Lancet, 2023",
+    "presented_by": "Romana Cuffolo",
+    "key_findings": "Phase 3 RCT of fezolinetant, a neurokinin 3 receptor antagonist that blocks KNDy neuron overactivity in the hypothalamus to restore normal thermoregulation.",
+    "key_results": "Fezolinetant significantly reduced hot flush frequency and severity versus placebo. Relevant given up to 80% of menopausal women experience vasomotor symptoms, with a third suffering over a decade. Offers a non-hormonal mechanism distinct from existing options like SSRIs/SNRIs.",
+    "take_home": "A promising non-hormonal alternative for women unsuitable for or declining HRT. Awaiting NICE adoption but already generating patient demand in menopause clinics.",
+    "paper_link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)00085-5/abstract"
+  },
+  "guideline": {
+    "week_label": "WEEK 3 • GUIDELINE",
+    "title": "NICE Guideline — Menopause: Identification and Management (NG23)",
+    "presented_by": "Niluka Kanaganayagam",
+    "sections": [
+      {
+        "label": "Diagnosis",
+        "text": "Clinical diagnosis in women over 45 — no blood tests needed. FSH only indicated under 45 (two readings, 4 weeks apart). Early menopause: onset 40–45."
+      },
+      {
+        "label": "Symptoms",
+        "text": "Vasomotor (hot flushes, night sweats), genitourinary (dryness, dyspareunia, urinary discomfort), low libido, and subthreshold depressive symptoms."
+      },
+      {
+        "label": "HRT & POI",
+        "text": "Trial of HRT is reasonable in symptomatic women over 40 even with regular periods. For suspected POI under 40, start standard HRT and refer — higher doses often needed. HRT preferred over COCP for cardiovascular and bone protection, but COCP acceptable if preferred."
+      }
+    ],
+    "guideline_link": "https://www.nice.org.uk/guidance/ng23"
+  },
+  "obs_jc": {
+    "week_label": "WEEK 4 • OBS JC",
+    "title": "Effect of HRT on Insulin Resistance in Postmenopausal Women",
+    "journal": "Women's Health Initiative cohort data",
+    "presented_by": "Vishnu Shivanand",
+    "key_findings": "Analysis from the WHI hormone trial examining the metabolic effects of HRT, specifically on insulin sensitivity via oestrogen receptor signalling in pancreas, liver, muscle, and adipose tissue.",
+    "key_results": "HRT significantly reduced insulin resistance in postmenopausal women. Discussion emphasised that lifestyle intervention — exercise, diet, weight management — remains underutilised and arguably more sustainable, but is harder to implement and less commercially driven.",
+    "take_home": "HRT has metabolic benefits beyond symptom relief, but lifestyle modification must remain central. Medication can kick-start change but doesn't replace addressing root causes.",
+    "image": "",
+    "image_caption": "",
+    "paper_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4884259/"
+  },
+  "historical_fact": {
+    "title": "When Oxford Built a Computer to Read CTGs (1978)",
+    "fact": "Long before ChatGPT or AI entered the mainstream lexicon, two Oxford professors were already asking the question: can a computer interpret a fetal heart rate better than the human eye? In 1978, Geoffrey Dawes and Christopher Redman began building an algorithm to do exactly that — objectively analyse the antenatal CTG. After more than a decade of development and thousands of traces, the System 8000 launched in 1991 as the first commercially available computerised CTG analysis tool. Today, refined using over 100,000 recordings, the Dawes-Redman criteria are woven into everyday UK practice through the NHS Saving Babies' Lives Care Bundle. As we launch our own AI in Healthcare sessions this month, it's worth remembering that AI in obstetrics isn't some distant future — it started down the road at the Nuffield, nearly half a century ago.",
+    "year": "1978",
+    "reference_link": "https://journals.lww.com/mfm/fulltext/2022/04000/computerized_analysis_of_antepartum.7.aspx",
+    "image": "The Station Final_files/Redman.png",
+    "image_caption": "Figure 2. Princess Diana with Professor Chris Redman, 1986."
+  },
+  "schedule": {
+    "month": "April 2026",
+    "theme_subheading": "April's Theme: Postpartum Complications",
+    "meetings": [
+      {
+        "date": "Apr 7",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "No teaching",
+        "topic": "Resident Doctor Strikes",
+        "location": ""
+      },
+      {
+        "date": "Apr 14",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "AI Session",
+        "topic": "Slides in Minutes: Intro to NotebookLM (Khalid Shamiyah)",
+        "location": "Microsoft Teams",
+        "presenter": "Khalid Shamiyah"
+      },
+      {
+        "date": "Apr 21",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Guidelines Session",
+        "topic": "RCOG VTE (Zoe Slack)",
+        "location": "Microsoft Teams",
+        "presenter": "Zoe Slack"
+      },
+      {
+        "date": "Apr 28",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Gynae JC",
+        "topic": "TBD (Balqees Abu-Khadra)",
+        "location": "Microsoft Teams",
+        "presenter": "Balqees Abu-Khadra"
+      }
+    ]
+  },
+  "mdt_reminder": {
+    "enabled": true,
+    "day": "Tuesday",
+    "time": "08:30–09:00",
+    "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
+  },
+  "barcode": {
+    "barcode_image": "teams_meeting_qr.png"
+  }
+}

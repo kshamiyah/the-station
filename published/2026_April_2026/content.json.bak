@@ -61,7 +61,7 @@
     "title": "From Laxative to Life-Saver — The Unlikely Story of Magnesium Sulphate",
     "year": "1906",
     "fact": "In the early 1900s, physicians began noticing that magnesium sulphate — a common laxative — seemed to stop seizures in women with eclampsia. The first reported use was in 1906, but the medical community remained divided for decades over whether it truly worked or was just a placebo. It wasn't until 2002, when the landmark MAGPIE trial enrolled over 10,000 women across 33 countries, that magnesium sulphate was definitively proven to halve the risk of eclamptic seizures. Dr Edmond Meyer Lazard first reported the intravenous use of magnesium sulphate for eclampsia at Los Angeles General Hospital in 1925, reducing maternal mortality from ~30% to 6%. It took nearly 80 years for the MAGPIE trial to definitively prove its efficacy. Today it sits on the WHO's List of Essential Medicines and is a cornerstone of every labour ward — a reminder that sometimes the most important treatments come from the most unexpected places.",
-    "image": "../../images/Lazard.png",
+    "image": "../images/Lazard.png",
     "image_caption": "Dr Edmond Meyer Lazard, who first reported the intravenous use of magnesium sulphate for eclampsia at Los Angeles General Hospital in 1925",
     "reference_link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(02)08778-0/abstract"
   },
@@ -110,6 +110,6 @@
     "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
   },
   "barcode": {
-    "barcode_image": "../../images/teams_meeting_qr.png"
+    "barcode_image": "../images/teams_meeting_qr.png"
   }
 }
