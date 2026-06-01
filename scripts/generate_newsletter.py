@@ -635,47 +635,28 @@ def generate_barcode_section(data):
     </table>"""
 
 def generate_archive_section(data):
-    """Previous editions archive section with links to past newsletters."""
-    if not data or not data.get('editions'):
+    """Previous editions archive section with link to archive page."""
+    if not data or not data.get('archive_link'):
         return ""
 
-    editions = data.get('editions', [])
-    if not editions or not isinstance(editions, list):
-        return ""
-
-    rows = ""
-    for edition in editions:
-        if not isinstance(edition, dict):
-            continue
-        date = (edition.get('date') or '').strip()
-        link = (edition.get('link') or '').strip()
-        if not (date and link):
-            continue
-        rows += f"""
-        <tr style="border-bottom: 1px solid #e5e5e7;">
-            <td style="padding: 12px 16px; font-family: {STYLE['font_stack']}; font-size: 14px; color: {STYLE['text_primary']};">
-                {escape_html(date)}
-            </td>
-            <td style="padding: 12px 16px; text-align: right;">
-                <a href="{escape_html(link)}" style="color: {STYLE['accent_blue']}; font-family: {STYLE['font_stack']}; font-size: 14px; font-weight: 500; text-decoration: none;">
-                    Read ↗
-                </a>
-            </td>
-        </tr>"""
-
-    if not rows:
+    archive_link = (data.get('archive_link') or '').strip()
+    if not archive_link:
         return ""
 
     content = f"""
     {generate_badge('Previous Editions')}
 
-    <div style="font-family: {STYLE['font_stack']}; font-size: 18px; font-weight: 600; color: {STYLE['text_primary']}; margin-bottom: 16px; letter-spacing: -0.3px;">
-        Archive
+    <div style="font-family: {STYLE['font_stack']}; font-size: 18px; font-weight: 600; color: {STYLE['text_primary']}; margin-bottom: 12px; letter-spacing: -0.3px;">
+        Browse the Archive
     </div>
 
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
-        {rows}
-    </table>
+    <div style="font-family: {STYLE['font_stack']}; font-size: 14px; color: {STYLE['text_primary']}; line-height: 1.6; margin-bottom: 16px;">
+        Missed a previous edition? View all past issues and stay caught up with our archive.
+    </div>
+
+    <a href="{escape_html(archive_link)}" style="display: inline-block; color: {STYLE['accent_blue']}; font-family: {STYLE['font_stack']}; font-size: 14px; font-weight: 500; text-decoration: none; padding: 12px 0; border-bottom: 2px solid {STYLE['accent_blue']};">
+        View all editions ↗
+    </a>
     """
     return generate_card_wrapper(content)
 
