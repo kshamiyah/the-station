@@ -203,7 +203,7 @@ def generate_title_meta_block(title, journal=None, presented_by=None):
 
 def generate_shaded_header_block(title, meta_text=None, title_size_px=24):
     """Shaded header block for non-JC sections (title + divider + optional meta text)."""
-    meta_text = (meta_text or "").strip()
+    meta_text = (str(meta_text) if meta_text else "").strip()
     if not meta_text:
         return f"""
     <div style="font-family: {STYLE['font_stack']}; font-size: {int(title_size_px)}px; font-weight: 600; color: {STYLE['text_primary']}; margin-bottom: 12px; letter-spacing: -0.3px; line-height: 1.2;">
