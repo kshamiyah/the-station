@@ -1,5 +1,5 @@
 {
-  "date_label": "April 2026",
+  "date_label": "May 2026",
   "message_heading": "Under Pressure",
   "message_to_team": "Hypertensive disorders of pregnancy remain one of the leading causes of maternal death in the UK. The MBRRACE-UK 2025 report found that 83% of women who died from hypertensive disorders could have had better care — a striking reminder that outcomes in this condition are not inevitable. This month we revisit the evidence: what NICE NG133 actually says at the bedside, and whether the drugs we reach for postpartum are truly backed by data.",
   "theme": {
@@ -17,7 +17,7 @@
     "interpretation": "At consultant ward round (15:00): baseline 160 bpm, definitely reduced variability, chemoreceptor decelerations — decompensating CTG. Propess removed, terbutaline given, transferred to delivery suite with some delay.",
     "outcome": "Baby delivered in theatre; APGAR 9 and 10, mild-to-moderate cord gas acidaemia. Flagged as near-miss.",
     "learning_point": "A 10% rise in baseline is a red flag. The failure here was delayed escalation and normalcy bias, not lack of recognition. Dr Shu Wong proposed adding a baseline comparison field to the antenatal CTG documentation form.",
-    "trace_image": "images/CTG April.png",
+    "trace_image": "../images/CTG April.png",
     "trace_caption": "Figure 1. CTG trace demonstrating a decompensating pattern on induction of labour: baseline tachycardia at 160 bpm, markedly reduced variability, and chemoreceptor decelerations — prompting emergency transfer to the delivery suite."
   },
   "guidelines": {
@@ -86,7 +86,7 @@
     "title": "The Urine That Changed Everything — Guy's Hospital, 1843",
     "year": 1843,
     "fact": "In 1843, John C. W. Lever at Guy's Hospital tested the urine of 10 women with puerperal convulsions and found albumin in 9 — the exception dying of meningitis. Eclampsia was considered purely neurological at the time. Lever proposed it differed from Bright's disease because the albuminuria resolved after delivery — the first time a systemic, detectable precursor to eclamptic convulsions had been identified, and the intellectual ancestor of the dipstick dipped at every antenatal appointment today.",
-    "image": "images/Historical April.png",
+    "image": "../images/Historical April.png",
     "image_caption": "Figure 2. The title page of 'Cases of puerperal convulsions, with remarks,' in which Dr John C. W. Lever reported the association between puerperal convulsions and albuminuria. Modified from Lever, Guy's Hospital Reports, 1843.",
     "reference_link": "https://www.ajog.org/article/S0002-9378(21)02639-9/fulltext"
   },
@@ -135,6 +135,6 @@
     "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
   },
   "barcode": {
-    "barcode_image": "images/teams_meeting_qr.png"
+    "barcode_image": "../images/teams_meeting_qr.png"
   }
 }
