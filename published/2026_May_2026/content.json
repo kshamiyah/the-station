@@ -1,0 +1,143 @@
+{
+  "date_label": "May 2026",
+  "message_heading": "Under Pressure",
+  "message_to_team": "Hypertensive disorders of pregnancy remain one of the leading causes of maternal death in the UK. The MBRRACE-UK 2025 report found that 83% of women who died from hypertensive disorders could have had better care — a striking reminder that outcomes in this condition are not inevitable. This month we revisit the evidence: what NICE NG133 actually says at the bedside, and whether the drugs we reach for postpartum are truly backed by data.",
+  "theme": {
+    "enabled": true,
+    "label": "Monthly Theme",
+    "title": "Under Pressure",
+    "intro": "Hypertensive disorders in pregnancy: recognition, management, and the evidence behind our choices."
+  },
+  "ctg_meeting": {
+    "week_label": "CTG MEETING",
+    "title": "The Baseline That Was Telling Us Something",
+    "presented_by": "Dr Joanna Pawlak",
+    "no_meeting": false,
+    "background": "Patient on IOL with propess in situ. Initial CTG baseline 120 bpm at 03:30; risen to 140 bpm by 10:30 with possible reduced variability — no action taken, documentation form not completed.",
+    "interpretation": "At consultant ward round (15:00): baseline 160 bpm, definitely reduced variability, chemoreceptor decelerations — decompensating CTG. Propess removed, terbutaline given, transferred to delivery suite with some delay.",
+    "outcome": "Baby delivered in theatre; APGAR 9 and 10, mild-to-moderate cord gas acidaemia. Flagged as near-miss.",
+    "learning_point": "A 10% rise in baseline is a red flag. The failure here was delayed escalation and normalcy bias, not lack of recognition. Dr Shu Wong proposed adding a baseline comparison field to the antenatal CTG documentation form.",
+    "trace_image": "../images/CTG April.png",
+    "trace_caption": "Figure 1. CTG trace demonstrating a decompensating pattern on induction of labour: baseline tachycardia at 160 bpm, markedly reduced variability, and chemoreceptor decelerations — prompting emergency transfer to the delivery suite."
+  },
+  "guidelines": {
+    "week_label": "GUIDELINES",
+    "title": "NICE NG133: Hypertension in Pregnancy — Diagnosis and Management",
+    "presented_by": "Dr Chloe Unwin",
+    "guideline_link": "https://www.nice.org.uk/guidance/ng133",
+    "sections": [
+      {
+        "label": "Definitions",
+        "text": "Chronic hypertension (booking or <20 weeks), gestational hypertension (≥20 weeks, no proteinuria), pre-eclampsia (hypertension + proteinuria, organ dysfunction, or placental dysfunction). Avoid 'essential hypertension' until secondary causes excluded."
+      },
+      {
+        "label": "Prevention & targets",
+        "text": "Aspirin 150mg from 12–36 weeks if one high-risk or two moderate-risk factors. Treat if BP >140/90; severe threshold >160/110. Target: 135/85."
+      },
+      {
+        "label": "Antihypertensives",
+        "text": "Antenatal: labetalol → nifedipine → methyldopa (nifedipine first-line in Afro-Caribbean women). Postnatal: enalapril first-choice with renal monitoring at one week; nifedipine/amlodipine preferred in Black and Caribbean women."
+      },
+      {
+        "label": "Admission & delivery",
+        "text": "Deliver at 37 weeks; within 24–48 hours if diagnosed after 37 weeks. Admit for BP >160/110, creatinine >90, ALT >70, platelets <150, worsening bloods, impending eclampsia, or foetal compromise."
+      },
+      {
+        "label": "Postnatal & long-term",
+        "text": "GP review at 6–8 weeks; check proteinuria resolved. Pre-eclampsia carries ~1-in-6 recurrence risk and 3x lifetime cardiovascular risk. Prescribe antihypertensives at 05:00/11:00/17:00/23:00 to enable post-dose BP monitoring and support earlier discharge."
+      }
+    ]
+  },
+  "journal_club": {
+    "week_label": "JOURNAL CLUB",
+    "title": "Nifedipine vs Enalapril for Postpartum Hypertension: Does the Evidence Support the Switch?",
+    "journal": "RCT, 2020–2021, tertiary centre, USA",
+    "presented_by": "Dr Zachary Chan",
+    "key_findings": "Open-label RCT of 94 women with gestational hypertension, pre-eclampsia, or chronic hypertension randomised to enalapril (10–40mg daily) vs nifedipine (30–90mg daily). Primary outcome: composite healthcare burden index.",
+    "key_results": "Only a 2% difference in primary outcome (NNT 45) — well below the 30% the trial was powered to detect. Severely underpowered, prone to type 2 error, and affected by provider and participant bias. Enalapril was not superior, though safe in breastfeeding and associated with lower diastolic BP at six weeks. Ethnicity was not reported — a notable gap given NICE guidance on antihypertensive choice in women of Black or Caribbean background.",
+    "take_home": "Evidence does not support switching from nifedipine to enalapril postpartum. Antihypertensive choice should factor in ethnicity, side effect profile, and dosing convenience.",
+    "paper_link": "https://www.ajogmfm.org/article/S2589-9333(23)00320-8/abstract"
+  },
+  "ai_in_clinical_practice": {
+    "week_label": "AI IN CLINICAL PRACTICE",
+    "title": "Using AI Better: Four Prompting Habits for Everyday Clinical Work",
+    "presented_by": "Dr Khalid Shamiyah",
+    "key_points": [
+      {
+        "label": "Set up custom instructions",
+        "detail": "Tell ChatGPT who you are so responses are calibrated to your level."
+      },
+      {
+        "label": "Specify your audience",
+        "detail": "Framing the prompt around who the answer is for produces vastly different outputs."
+      },
+      {
+        "label": "Show, don't describe",
+        "detail": "Upload an existing trust document as a template for style-matched outputs."
+      },
+      {
+        "label": "Use study mode",
+        "detail": "Type /study at the start of a chat for interactive, test-as-you-go teaching."
+      }
+    ],
+    "safety_reminders": "Never share patient-identifiable data. Always verify clinical content against guidelines. Microsoft Copilot is available free via the trust."
+  },
+  "historical_fact": {
+    "title": "The Urine That Changed Everything — Guy's Hospital, 1843",
+    "year": 1843,
+    "fact": "In 1843, John C. W. Lever at Guy's Hospital tested the urine of 10 women with puerperal convulsions and found albumin in 9 — the exception dying of meningitis. Eclampsia was considered purely neurological at the time. Lever proposed it differed from Bright's disease because the albuminuria resolved after delivery — the first time a systemic, detectable precursor to eclamptic convulsions had been identified, and the intellectual ancestor of the dipstick dipped at every antenatal appointment today.",
+    "image": "../images/Historical April.png",
+    "image_caption": "Figure 2. The title page of 'Cases of puerperal convulsions, with remarks,' in which Dr John C. W. Lever reported the association between puerperal convulsions and albuminuria. Modified from Lever, Guy's Hospital Reports, 1843.",
+    "reference_link": "https://www.ajog.org/article/S0002-9378(21)02639-9/fulltext"
+  },
+  "schedule": {
+    "month": "June 2026",
+    "theme_subheading": "June's Theme: Fertility",
+    "meetings": [
+      {
+        "date": "Jun 2",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "CTG",
+        "topic": "By Snigdha Komatineni (ST3)",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Jun 9",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Obs JC",
+        "topic": "By Romana Cuffolo",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Jun 16",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "Gynae JC",
+        "topic": "By Fatima Zahra",
+        "location": "Microsoft Teams"
+      },
+      {
+        "date": "Jun 23",
+        "day": "Tuesday",
+        "time": "08:30–09:00",
+        "event": "TBD",
+        "topic": "TBD",
+        "location": "Microsoft Teams"
+      }
+    ]
+  },
+  "mdt_reminder": {
+    "enabled": true,
+    "day": "Tuesday",
+    "time": "08:30–09:00",
+    "meeting_link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2QyZmM2YmUtZDg2ZC00OTQ3LWIwN2UtZjI4MTFmZDBiMWE5%40thread.v2/0?context=%7b%22Tid%22%3a%22efb0b3e6-985c-4a9d-9a3b-5310bf9cbf2e%22%2c%22Oid%22%3a%22d347fb0c-50a9-409f-8846-45cd72b43580%22%7d"
+  },
+  "barcode": {
+    "barcode_image": "../images/teams_meeting_qr.png"
+  },
+  "archive": {
+    "archive_link": "https://kshamiyah.github.io/the-station/"
+  }
+}
