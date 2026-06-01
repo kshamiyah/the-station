@@ -437,6 +437,50 @@ def generate_guideline_section(data):
     """
     return generate_card_wrapper(content)
 
+def generate_ai_teaching_section(data):
+    """AI Teaching section with key points and safety reminders."""
+    if not data or not data.get('title'):
+        return ""
+
+    key_points = data.get('key_points', [])
+    rows = []
+    for point in key_points:
+        if not isinstance(point, dict):
+            continue
+        label = (point.get('label') or '').strip()
+        detail = (point.get('detail') or '').strip()
+        if not (label or detail):
+            continue
+        rows.append(f"""
+        <tr>
+            <td width="25%" style="font-family: {STYLE['font_stack']}; font-size: 12px; font-weight: 600; color: {STYLE['text_secondary']}; padding-bottom: 10px; vertical-align: top;">
+                {escape_html(label)}
+            </td>
+            <td style="font-family: {STYLE['font_stack']}; font-size: 14px; color: {STYLE['text_primary']}; padding-bottom: 10px; line-height: 1.5;">
+                {escape_html(detail)}
+            </td>
+        </tr>""")
+
+    safety_reminders = data.get('safety_reminders', '')
+    safety_block = f"""
+    <div style="background-color: #fef3cd; border-left: 3px solid #ff9800; border-radius: 6px; padding: 12px; margin-top: 16px;">
+        <strong style="font-family: {STYLE['font_stack']}; font-size: 12px; color: #ff6f00; display: block; margin-bottom: 4px;">⚠️ SAFETY REMINDER</strong>
+        <span style="font-family: {STYLE['font_stack']}; font-size: 13px; color: #333; line-height: 1.4;">{escape_html(safety_reminders)}</span>
+    </div>
+    """ if safety_reminders else ""
+
+    content = f"""
+    {generate_badge(data.get('week_label', 'WEEK 4 • AI TEACHING'))}
+
+    {generate_shaded_header_block(data['title'], data.get('presented_by', ''), 24)}
+
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        {''.join(rows)}
+    </table>
+    {safety_block}
+    """
+    return generate_card_wrapper(content)
+
 def generate_historical_fact_section(data):
     """Historical Obs and Gynae facts section. Optional image shown to the right of the text."""
     if not data or not data.get('fact'):
@@ -627,10 +671,10 @@ def generate_newsletter_html(data):
                             {generate_header(data['date_label'])}
                             {generate_message_to_team(data.get('message_to_team', ''), data.get('message_heading', ''))}
                             {generate_theme_section(data['theme']) if data.get('theme', {}).get('enabled', True) else ''}
-                            {generate_ctg_section(data['ctg'])}
-                            {generate_jc_section(data['gynae_jc']) if data.get('gynae_jc', {}).get('week_label') else ''}
-                            {generate_guideline_section(data['guideline'])}
-                            {generate_jc_section(data['obs_jc'])}
+                            {generate_ctg_section(data.get('ctg_meeting', {}))}
+                            {generate_jc_section(data.get('journal_club', {}))}
+                            {generate_guideline_section(data.get('guidelines', {}))}
+                            {generate_ai_teaching_section(data.get('ai_in_clinical_practice', {}))}
                             {generate_historical_fact_section(data.get('historical_fact', {}))}
                             {generate_schedule_table(data.get('schedule', {}))}
                             {generate_mdt_reminder(data.get('mdt_reminder', {}), data.get('barcode', {}))}

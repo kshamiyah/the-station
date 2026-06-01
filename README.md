@@ -5,12 +5,13 @@ A professional, Apple-style monthly newsletter generator for Obstetrics & Gynaec
 ## Quick Start
 
 ### 1. Edit Content
-Open `data/newsletter_content.json` and update:
-- Date label
-- Team message
-- Week 1-3 content (AI, Guidelines, Journal Club)
-- Historical perspective
-- Schedule for next month
+Open `data/newsletter_content.json` and update the four main sections:
+- **CTG Meeting** — Case study with clinical learning point
+- **Journal Club** — Research paper discussion
+- **Guidelines** — Key guideline update or summary
+- **AI in Clinical Practice** — Tool, technique, or AI-related teaching
+
+Plus optional sections: theme, historical fact, next month's schedule.
 
 See `documentation/CONTENT_GUIDE.md` for detailed field descriptions.
 
