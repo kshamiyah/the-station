@@ -1,6 +1,5 @@
 # Generated files
 build/
-*.html
 
 # Python cache
 __pycache__/
