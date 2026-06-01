@@ -136,5 +136,21 @@
   },
   "barcode": {
     "barcode_image": "../images/teams_meeting_qr.png"
+  },
+  "archive": {
+    "editions": [
+      {
+        "date": "April 2026",
+        "link": "https://example.com/newsletters/april-2026"
+      },
+      {
+        "date": "March 2026",
+        "link": "https://example.com/newsletters/march-2026"
+      },
+      {
+        "date": "February 2026",
+        "link": "https://example.com/newsletters/february-2026"
+      }
+    ]
   }
 }
